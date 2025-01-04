@@ -32,30 +32,39 @@ SocialSync is a web platform that integrates psychology into web design while of
 
 Before running this project, make sure you have the following:
 
-**Node.js** (v16 or above)
+**Web Browser**
 
-- Download and install from [nodejs.org](https://nodejs.org/).
+- Any modern web browser like Google Chrome, Firefox, or Edge.
 
-**Firebase Account**
+**Code Editor**
 
-- Create a project on [Firebase Console](https://console.firebase.google.com/).
-- Enable **Email/Password Authentication** in Firebase.
+- Install a code editor like [VS Code](https://code.visualstudio.com/) to edit the project files.
 
 **Git**
 
 - Install [Git](https://git-scm.com/) to clone this repository.
 
-**Code Editor**
+**Live Server (Optional)**
 
-- Install a code editor like [VS Code](https://code.visualstudio.com/).
+- If you want to use **Live Server** in VS Code for a live preview, install the extension from [here](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-## How to Run Locally
+### How to Run Locally
 
-Follow these steps to set up and run the project on your local machine:
+Follow these steps to set up and run the **SocialSync** project on your local machine:
 
 **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/reflectly.git
-cd reflectly
+https://github.com/ThunderShadows/SocialSync.git
+cd SocialSync
 ```
+
+### How to Open the Project Locally
+
+**Without Live Server**:
+
+- Open the `index.html` file directly in your preferred web browser.
+
+**With Live Server (Optional)**:
+
+- If you're using **VS Code** and have installed the **Live Server** extension, right-click on `index.html` and select **"Open with Live Server"**. This will open the project in your default browser with live reloading.
