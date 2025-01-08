@@ -269,6 +269,8 @@
 
 .service-item:hover .btn {
     width: 140px;
+    background-color: #0463fa; 
+    color: white; 
 }
 
 
