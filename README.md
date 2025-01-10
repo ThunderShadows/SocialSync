@@ -73,6 +73,6 @@ cd SocialSync
 
 Thanks to all the amazing people who have contributed to this project! 💖
 
-[![Contributors](https://contrib.rocks/image?repo=original-owner/SocialSync)](https://github.com/original-owner/SocialSync/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=ThunderShadows/SocialSync)](https://github.com/ThunderShadows/SocialSync/graphs/contributors)
 
 ---
