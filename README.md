@@ -69,7 +69,7 @@ cd SocialSync
 
 - If you're using **VS Code** and have installed the **Live Server** extension, right-click on `index.html` and select **"Open with Live Server"**. This will open the project in your default browser with live reloading.
 
-## Contributors ✨
+## Our Contributors ✨
 
 Thanks to all the amazing people who have contributed to this project! 💖
 
