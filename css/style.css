@@ -431,6 +431,12 @@
     border-bottom-color: var(--primary);
 }
 
+/*** Contact && Appointment ***/
+.required-asterisk {
+    color: rgb(230, 6, 6);
+    font-weight: bold;
+    margin-left: 5px;
+}
 
 /*** Testimonial ***/
 .testimonial-carousel::before {
