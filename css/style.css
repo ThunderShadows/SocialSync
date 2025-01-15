@@ -77,6 +77,17 @@
     font-weight: normal;
 }
 
+.social-icon {
+    transition: all 0.3s ease; 
+}
+
+.social-icon:hover {
+    background-color: #176fcc; 
+    color: rgb(12, 57, 219); 
+    transform: scale(1.1); 
+    
+}
+
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
