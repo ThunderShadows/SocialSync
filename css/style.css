@@ -587,3 +587,36 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+/*** Scroll bar improvement ***/
+::-webkit-scrollbar {
+    width: 0.6rem;
+    height: 0.6rem;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.05);
+    transition: background 0.3s ease;
+    backdrop-filter: blur(6px);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #007bff;
+}
+
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px);
+}
