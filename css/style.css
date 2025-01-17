@@ -186,6 +186,16 @@
 
 
 /*** Header ***/
+.carousel-img {
+    height: 600px;
+    object-fit: cover; 
+    width: 100%;
+}
+
+.responsive {
+    max-width: 100%;
+     
+}
 .header-carousel .owl-carousel-text {
     position: absolute;
     width: 100%;
