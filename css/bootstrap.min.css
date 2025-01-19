@@ -51,6 +51,7 @@ body {
     line-height: 1.5;
     color: #8D8E92;
     background-color: #fff;
+    cursor: none;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
