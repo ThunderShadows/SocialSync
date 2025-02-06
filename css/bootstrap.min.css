@@ -85,7 +85,7 @@ h6,
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.2;
-    color: #1B2C51
+    color: #A6A6A6
 }
 
 h1,
@@ -8366,7 +8366,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #EFF5FF !important
+    background-color: #333333 !important
 }
 
 .bg-dark {
