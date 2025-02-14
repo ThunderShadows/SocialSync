@@ -630,3 +630,21 @@
     background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(6px);
 }
+
+
+/* payments in footer */
+.payments a{
+    color: #FFFFFF;
+    font-size: 200%;
+    position: relative;
+    top:-20px;
+    padding-right: 15px;
+   
+}
+.payments i:hover{
+    color: #faa004;
+    transform: scale(1.2);
+}
+.payments h5{
+  margin-top: 25px;
+}
