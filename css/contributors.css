@@ -119,25 +119,7 @@
     color: #f39c12; /* Subtle yellow color */
     text-shadow: 0 4px 20px rgba(243, 156, 18, 0.6); /* Subtle yellow glow effect */
   }
-  
-  /* Pratik Ghuge CSS end */
-  
-  .contributor-card button {
-    margin-top: 12px;
-    padding: 10px 16px;
-    border-radius: 20px;
-    font-size: 1rem;
-    background-color:#d6a52b;
-    color: var(--clouds-color);
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  .contributor-card button:hover {
-    background-color:linear-gradient(145deg, #f1c40f, #f39c12); /* Warm yellow gradient */
-    transform: translateY(-2px);
-  }
-  
+    
   /* Pulse Effect for Avatar */
   @keyframes pulse {
     0% {
