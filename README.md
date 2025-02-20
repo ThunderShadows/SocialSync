@@ -16,8 +16,6 @@ SocialSync is a web platform that integrates psychology into web design while of
 
 - **Specialized Mental Health Services** : Explore tailored support for anxiety, stress, relationship counseling, and other specific needs.
 
-- **Resources for Web Designers** : Learn about cognitive principles in web design through case studies, quizzes, and practical examples to create effective, user-centered designs.
-
 ## Tech Stack Used 💻
 
 - **HTML**: The backbone of the platform, structuring the content and layout.
