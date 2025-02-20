@@ -343,8 +343,83 @@
     }
 }
 
+/*** Enhanced Service Section ***/
+.service-item {
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+    transform: translateY(0);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
 
-/*** Team ***/
+.service-item:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.12);
+    z-index: 1;
+}
+
+.service-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #0463fa;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s ease-in-out;
+}
+
+.service-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.service-item .btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.service-item:hover .btn {
+    width: 140px;
+    background-color: #0463fa;
+    color: white;
+    box-shadow: 0 4px 8px rgba(4, 99, 250, 0.3);
+}
+
+.service-item .btn span {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    margin-left: 8px;
+}
+
+.service-item:hover .btn span {
+    opacity: 1;
+    transition-delay: 0.1s;
+}
+
+.service-item .btn i {
+    position: absolute;
+    left: 12px;
+    transition: left 0.3s ease-in-out;
+}
+
+.service-item:hover .btn i {
+    left: 20px;
+}
+
 .team-item img {
     position: relative;
     top: 0;
