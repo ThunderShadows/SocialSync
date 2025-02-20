@@ -425,7 +425,7 @@
                                     <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;" required>
+                                    <input type="tel" inputmode="numeric" pattern="^[0-9]{10}$" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;" required>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <select class="form-select border-0" style="height: 55px;">
@@ -439,14 +439,14 @@
                                     <div class="date" id="date" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;" required>
+                                            placeholder="Choose Date" pattern="^([0-2][0-9]|3[01])\/(0[1-9]|1[0-2])\/([0-9]{4})$" data-target="#date" data-toggle="datetimepicker" style="height: 55px;" required>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="time" id="time" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
-                                            placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;" required>
+                                            placeholder="Choose Time" pattern="^(0[1-9]|1[0-2]):([0-5][0-9]) (AM|PM)$" data-target="#time" data-toggle="datetimepicker" style="height: 55px;" required>
                                     </div>
                                 </div>
                                 <div class="col-12">
