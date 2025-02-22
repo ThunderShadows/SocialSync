@@ -406,6 +406,152 @@ display: none;
 body.darkmode #theme-icon #dark-icon {
 display: block;
 }
+
+    .social-icon:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+    .nav-item.nav-link {
+        position: relative;
+        transition: color 0.3s ease;
+    }
+
+    .nav-item.nav-link::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #007bff;
+        transition: width 0.3s ease;
+    }
+
+    .nav-item.nav-link:hover::after {
+        width: 100%;
+    }
+
+    .form-control {
+        transition: all 0.3s ease;
+        border: 1px solid #dee2e6 !important;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 10px rgba(0,123,255,0.25) !important;
+        border-color: #007bff !important;
+        transform: translateY(-2px);
+    }
+
+    .bg-light.rounded {
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .bg-light.rounded:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+
+    .btn-primary {
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .btn-primary:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+    }
+
+    .btn-primary::after {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: rgba(255,255,255,0.1);
+        transform: rotate(45deg);
+        transition: all 0.5s ease;
+    }
+
+    .btn-primary:hover::after {
+        left: 100%;
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .wow.fadeInUp {
+        animation: slideIn 0.8s ease-out;
+    }
+
+    body.darkmode .bg-light {
+        background-color: #2d2d2d !important;
+        color: #ffffff;
+    }
+
+    body.darkmode .form-control {
+        background-color: #3d3d3d;
+        border-color: #4d4d4d !important;
+        color: #ffffff;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.05); }
+        100% { transform: scale(1); }
+    }
+
+    .bg-light.rounded.d-flex.align-items-center {
+        animation: pulse 2s infinite ease-in-out;
+    }
+
+    .form-select {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .form-select:hover {
+        border-color: #007bff !important;
+    }
+
+    textarea {
+        resize: none;
+        transition: all 0.3s ease;
+    }
+
+    textarea:focus {
+        min-height: 120px;
+    }
+
+    .page-header {
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .navbar {
+        box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        transition: all 0.3s ease;
+    }
+
+    input[type="checkbox"]:checked {
+        transform: scale(1.2);
+    }
 </style>
 
 <script>
