@@ -27,10 +27,10 @@
     height: 46px;
     border-radius: 50%;
     background: conic-gradient(
-        #ffc534 0deg,
-        #ff9f02 var(--scroll-progress, 0deg),
-        #dddddd00 var(--scroll-progress, 0deg),
-        #dddddd00 360deg
+        #0075f4 0deg,
+        #004bee var(--scroll-progress, 0deg),
+        #e9363600 var(--scroll-progress, 0deg),
+        #b3575700 360deg
     );
     transform: rotate(-90deg); /* Start animation from top */
     display: flex;
@@ -47,12 +47,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgb(0 0 0 / 66%);
 }
 
 .arrow {
     font-size: 18px;
-    color: orange;
-    font-weight: bold;
+    color: #0075f4;
+    font-weight: 1000; /* Extreme weight for more boldness */
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%); /* Add shadow to make it appear thicker */
     transform: rotate(90deg); /* Fixed direction to the right */
 }
