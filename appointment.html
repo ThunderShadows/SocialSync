@@ -412,17 +412,29 @@ display: block;
     document.addEventListener('DOMContentLoaded', () => {
 const themeSwitch = document.getElementById('theme-switch');
 const darkmode = localStorage.getItem('darkmode');
+const bgLightElements = document.querySelectorAll('.bg-light');
 
+function updatebgLightElements(isDarkMode) {
+    bgLightElements.forEach(element => {
+         element.style.backgroundColor= isDarkMode ? '#333333' : '#e0e0e0';
+    });
+}
 // Apply dark mode if the user has previously selected it
 if (darkmode === 'active') {
     document.body.classList.add('darkmode');
+    updatebgLightElements(true);
 }
+else {
+    updatebgLightElements(false);
+}
+
 
 // Toggle dark mode on button click
 themeSwitch.addEventListener('click', () => {
     document.body.classList.toggle('darkmode');
     const isDarkMode = document.body.classList.contains('darkmode');
     localStorage.setItem('darkmode', isDarkMode ? 'active' : 'inactive');
+    updatebgLightElements(isDarkMode);
 });
 });
 </script>
