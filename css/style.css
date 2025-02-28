@@ -311,6 +311,7 @@
     white-space: nowrap;
     overflow: hidden;
     transition: .5s;
+    padding-left: 12px; 
 }
 
 .service-item:hover .btn {
@@ -390,6 +391,7 @@
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
+    padding-left: 12px; 
 }
 
 .service-item:hover .btn {
@@ -411,13 +413,14 @@
 }
 
 .service-item .btn i {
-    position: absolute;
-    left: 12px;
+    position: relative;
+    left: 0;
     transition: left 0.3s ease-in-out;
+    margin-right: 8px; 
 }
 
 .service-item:hover .btn i {
-    left: 20px;
+    left: 8px;
 }
 
 .team-item img {
