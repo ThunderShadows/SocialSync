@@ -206,18 +206,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
+    text-shadow: 0 0 30px rgba(107, 200, 88, 0.1);
 }
 
-.header-carousel .owl-nav {
+.header-carousel .owl-nav { 
     position: absolute;
     width: 200px;
-    height: 45px;
+    height: 45px;   
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .header-carousel .owl-nav .owl-prev,
@@ -238,7 +238,7 @@
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     background: var(--primary);
-    border-color: var(--primary);
+    border-color: var(--primary);   
 }
 
 .header-carousel .owl-dots {
